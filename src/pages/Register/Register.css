@@ -1,0 +1,96 @@
+.register-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f1f1f1;
+}
+
+/* components/RegisterForm.css */
+.register-form {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f8f8f8;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.register-title {
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.input-container {
+    margin-bottom: 20px;
+    width: 80%;
+}
+
+label {
+    display: block;
+    font-size: 16px;
+    margin-bottom: 5px;
+    color: #555;
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.register-button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.register-button:hover {
+    background-color: #0056b3;
+}
+
+.login-link {
+    display: block;
+    margin-top: 10px;
+    color: #007bff;
+    text-decoration: none;
+}
+
+.error-message {
+    color: #ff0000;
+}
+
+/* Add more styles to enhance the appearance */
+
+/* Media queries for responsiveness */
+@media screen and (max-width: 600px) {
+    .register-form {
+        max-width: 80%;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .register-title {
+        font-size: 20px;
+    }
+
+    .input-container label {
+        font-size: 14px;
+    }
+
+    .input-container input {
+        font-size: 14px;
+    }
+
+    .register-button {
+        font-size: 14px;
+    }
+}
